@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De-codificador</title>
+    <link rel = "stylesheet" href = "css/style.css">
+    <link rel ="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+</head>
+<body>
+    <main>
+        <header class="head">
+            <img  src="img/logo.png" alt="logo da alura">
+
+            
+        </header>
+
+    
+        <div class="container-main">
+            
+            <div class="container-input">
+                <textarea name="input-text" id="input-text" placeholder="Digite seu texto..."></textarea>
+                <p class="alert"><img src="img/sinal.png" alt="sinal de erro" id="img-alert">Apenas letras minúsculas e sem acento</p>
+
+            </div>
+            <div id="none" class="hidden"></div>
+            <div class="container-output">
+                <textarea  readonly  id="output-text" placeholder="Sua resposta aparecerá aqui"></textarea>
+                <img class ="icone" src="img/imagem1.svg"alt="pessoa com uma lupa na mão" id="img-output"><br>
+                <h1 id="message"></h1>
+                <div id="btn-copy"></div>
+                
+                
+            </div>
+        </div>
+
+        <div class="buttons">
+            
+            <button id="codificar" class="btn-codificar">Codificar</button>
+            <button id="decodificar" class="btn-decodificar">Decodificar</button>
+
+        </div>
+            
+
+    </main>
+    
+    <footer class="footer">
+      
+        <div class="redes">
+            <p>Minhas redes: </p>
+        
+        <a href="https://github.com/IgorSopes" title="Igor Lopes | GitHub" target="_blank">            
+            <img src="img/github.png" alt="Logo do GitHub em formato circular."
+            width="35" height="35" id="github">
+            GitHub
+        </a>
+         <a href="https://www.linkedin.com/in/igorlopessantos/" title="Igor Lopes| LinkedIn" target="_blank">
+            <img src="img/linkedin.png" alt="Logo do LinkedIn em formato circular"
+            width="35" height="35" id="linkedin">
+            LinkedIn
+        </a>
+        
+        </div>
+        
+        <div class="copyright">
+            <p>&#169; Desenvolvido por Igor Lopes- 2024</p>
+        </div>
+            
+
+    </footer>
+   
+    
+<script src="js/script.js"></script>
+</body>
+</html>
